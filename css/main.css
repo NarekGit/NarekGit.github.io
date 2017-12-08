@@ -1,0 +1,10 @@
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #103b7a;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #103b7a;
+}
