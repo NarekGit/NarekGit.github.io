@@ -10,12 +10,19 @@
     color: #fff;
 }
 
-.row-box {
-    margin-bottom: 30px;
-}
 .title-box{
     position: relative;
-    text-align: center;
+    padding-left: 15px;
+}
+.title-box:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 97.5%;
+    height: 1px;
+    background-color: #fff;
+    left: 15px;
+    bottom: 20px;
 }
 .title-box h3{
     font-weight: 700;
@@ -33,6 +40,10 @@
 }
 .content-box p{
     margin:0 0 10.5px;
+}
+.content-box .btn{
+    background-color: #fff;
+    color: #103b7a;
 }
 /* /Navbar */
 
