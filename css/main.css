@@ -3,6 +3,37 @@
     margin-bottom: 0;
 }
 
+/*   BLUE BOX  */
+
+.blue-box{
+    background:rgba(7,160,220,0.9);
+    color: #fff;
+}
+
+.row-box {
+    margin-bottom: 30px;
+}
+.title-box{
+    position: relative;
+    text-align: center;
+}
+.title-box h3{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+}
+
+.content-box{
+    text-align: right;
+    padding-right: 40px;
+}
+.content-box p{
+    margin:0 0 10.5px;
+}
 /* /Navbar */
 
 h2 {
