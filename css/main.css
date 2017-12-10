@@ -374,7 +374,7 @@ a:hover{
     float: left;
 }
 .contact-info ul li + li{
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid black;
 }
 
 /*  service.html   */
