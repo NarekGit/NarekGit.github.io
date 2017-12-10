@@ -340,7 +340,42 @@ a:hover{
     margin: 0 auto;
 }
 
+.map-section{
+    background-color: #3a3a3a;
+}
 
+.map-section .row-fluid {
+    padding: 60px 0;
+}
+.map-section .col-md-4{
+    color: #fff;
+}
+.contact-info{
+    float: left;
+    width: 100%;
+}
+.contact-info ul{
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.contact-info ul li{
+    padding: 20px 0;
+    list-style-type: none;
+    float: left;
+    width: 100%;
+}
+.contact-info ul li span{
+    width: 70%;
+    float: left;
+}
+.contact-info ul li span:first-child{
+    width: 30%;
+    float: left;
+}
+.contact-info ul li + li{
+    border-top: 1px solid #3a3a3a;
+}
 
 /*  service.html   */
 
@@ -368,16 +403,14 @@ a:hover{
     display:inline;
     float: left;
     background: none;
-    margin-top: 12px;
-    margin-left: 15px;
     font-size: 15px;
 }
-.breadcrumb ul{
+nav .breadcrumb{
     list-style-type: none;
     padding: 0;
     margin:0;
 }
-.breadcrumb ul li{
+.breadcrumb a{
     float: left;
     text-transform: uppercase;
     margin : 0 10px;
@@ -398,3 +431,4 @@ a:hover{
     ;
     max-width: 100%;
 }
+
